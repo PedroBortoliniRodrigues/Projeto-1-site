@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel 3 marias</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+        <style>
+
+            .titulo{
+                text-align: center;
+                font: xx-large 18pt  black;
+                font-size: 22pt;
+                border-radius: 10px;
+                padding: 15px;
+                width: 500px;
+                margin: auto;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.674);
+     
+ 
+                }   
+
+            
+            #menu-h{
+             list-style: none;
+             padding: 0;
+             background-color: aliceblue;
+             padding: 8px;
+             margin-top: 8%;
+             color: rgb(0, 0, 0);
+            }
+
+            #menu-h li{
+            display: inline;
+            padding-inline: 60px;
+            text-shadow: 2px -1px rgb(68, 68, 68);
+            }
+
+            .corpo{
+                display:flex;
+                margin-inline: 15;
+                text-align:left;
+                padding: 160px;
+                display:flex;
+                flex-direction:initial;
+                padding-inline: 10px;
+                
+                
+            }
+            
+            #quemsomos{
+                
+                display: inline;
+                border-radius: 50px;
+                width: 500px;
+                margin: auto;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.674);
+                display:flex;
+                flex-direction: row;
+                padding: 5px;
+                
+                
+                
+                
+     
+
+            }
+            #quemsomos:hover{
+                
+                border-radius: 50px;
+                width: 500px;
+                margin: auto;
+                box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.674);
+     
+
+            }
+
+            #textoquemsomos{
+
+                display:flex;
+                flex-direction:initial;
+                padding-inline: 10px;
+                padding: 55px;
+                color: aliceblue;
+                margin: auto;
+                box-shadow: 5px 5px 25px rgba(255, 255, 255, 0.674);
+                border-radius: 50px;
+                                
+                
+                
+                
+            }
+        
+            #servicos{
+                
+                align-items:center;
+                border-radius: 50px;
+                width: 500px;
+                box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.674);
+               
+            } 
+            #textoservicos{
+                display:flex;
+                flex-direction:initial;
+                padding-inline: 10px;
+                padding: 55px;
+                color: aliceblue;
+                margin: auto;
+                box-shadow: 5px 5px 25px rgba(255, 255, 255, 0.674);
+                border-radius: 50px;
+            }
+                
+            #servicos:hover{
+                
+                border-radius: 50px;
+                width: 500px;
+                margin: auto;
+                box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.674);
+     
+
+            }
+
+            #menu-h1{
+                
+                display:flex;
+                padding-left: 500px;
+                padding-top: 5px;
+                color: aliceblue;
+                margin-right: 200px;
+                box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.674);
+                border-radius: 50px;
+                 
+            }
+
+            #menu-h1.li{
+                display:flex;
+                flex-direction: row;
+
+
+
+
+
+
+
+
+            }
+            .corpo1{
+                display:flex;
+                flex-direction: row-reverse;
+                margin-inline: 15;
+                text-align:left;
+                padding: 160px;
+                display:flex;
+                flex-direction:row-reverse;
+                padding-inline: 10px;
+                
+            }
+            .mapa{
+                display:flex;
+                padding: 160px;
+                flex-direction:row;
+                padding-inline: 10px;
+                
+               
+                
+                
+            }
+
+            
+            #textomapa{
+
+            display:flex;
+            padding: 55px;
+            color: aliceblue;
+            box-shadow: 5px 5px 25px rgba(255, 255, 255, 0.674);
+            border-radius: 50px;
+                
+
+
+
+            }
+            .contato{
+                display: flex;
+                font: normal 18pt;
+                color: aliceblue;
+                align-items: center;
+                text-align: center;
+                padding: 100px;
+                box-shadow: 5px 5px 25px rgba(255, 255, 255, 0.674);
+                border-radius: 50px;
+                
+            }
+            a:link{
+            text-decoration: none;
+            color: aliceblue;
+            }
+           
+        </style>
+
+
+<body>
+
+    <body>
+        
+        <section class="titulo">
+        <h1> Hotel 3 Marias </h1>
+        <img width=100px, height=100px src="logo.png" alt="logo">
+        
+    
+        <style id="fundo">
+        body{
+            background-image: url(lagoverde.webp);
+            }
+        </style>
+        </section>    
+    </body>
+
+    <ul id="menu-h">
+        <li>Inicio</li>
+        <li><a style="color: black;" href="#quemsomos">Quem somos</a></li>
+        <li><a style="color: black;" href="#servicos">Serviços</a></li>
+        <li><a style="color: black;" href="#textomapa">Localização</a></li>
+        <li><a style="color: black;" href="#contato">Contato</a></li>
+
+
+    </ul>
+
+    <section class="corpo">
+
+        <div>
+            <img id="quemsomos" width="400px" height="300px" src="quarto.jpeg" alt="quarto">
+        
+        </div>
+
+
+
+        <div id="textoquemsomos">
+
+        <p>Somos uma acomodação de qualidade
+            e conforto fundada em 2023 com o 
+            intuito de trazer a melhor experiencia
+            aos nossos hospedes.
+            Cada detallhe foi pensado nos minimos
+            detalhes para melhor atender você
+        </p>
+        </div>
+        </section>
+
+        <section class="corpo1">
+
+            <div>
+                <img id="servicos" width="400px" height="300px" src="servicos.png" alt="servicos">
+            
+            </div>
+    
+    
+            <div id="textoservicos">
+
+                <p>Café da manhã | Almoço | Jantar | Garagem | Área de lazer | Bar |
+                    Serviço de quarto | Lavanderia | Sala de jogos | Sala de reunião |
+                    Wifi |
+
+                </p>
+                </div>
+                
+        </section>
+        
+
+        <section class="mapa">
+
+            <div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+            <div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
+            var setting = {"query":"Rua Jasmim Manga - Bairro Flamboyant, Paragominas - PA, Brasil","width":1200,"height":300,"satellite":false,"zoom":16,"placeId":"Ej1SLiBKYXNtaW0gTWFuZ2EgLSBCYWlycm8gRmxhbWJveWFudCwgUGFyYWdvbWluYXMgLSBQQSwgQnJhemlsIi4qLAoUChIJuZp0tYddt5IRQI8STyICpKASFAoSCX9m1OB8Z7eSETAHRA-Lzv-3","cid":"0xa0a402224f128f40","coords":[-2.9931661,-47.3400667],"lang":"pt","queryString":"Rua Jasmim Manga - Bairro Flamboyant, Paragominas - PA, Brasil","centerCoord":[-2.9931661,-47.3400667],"id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"1035667"};
+            var d = document;
+            var s = d.createElement('script');
+            s.src = 'https://1map.com/js/script-for-user.js?embed_id=1035667';
+            s.async = true;
+            s.onload = function (e) {
+              window.OneMap.initMap(setting)
+            };
+            var to = d.getElementsByTagName('script')[0];
+            to.parentNode.insertBefore(s, to);
+          })();</script><a href="https://1map.com/pt/map-embed">1 Map</a></div>
+
+
+        <div id="textomapa">
+
+        <p>Estamos localizados no endereço: Rua Jasmin Manga, Nº 445
+            Bairro Flamboyant, Paragominas - PA
+        </p>
+        </div>
+
+
+
+        </section>  
+
+        
+        <section class="contato">
+           <div id="contato"> 
+            <ul>
+                <li>
+                Telefone para contato: (91) 9 9158 - 4392          
+                </li>
+                <li>
+                Email: Pedrobortolini09@hotmail.com
+                </li>
+                <li>
+                Instagram: @hotel3mariasparagominas
+                </li>
+            </ul>
+        </div>
+        </section>
+        
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
